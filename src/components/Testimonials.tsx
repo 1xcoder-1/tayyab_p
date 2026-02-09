@@ -10,7 +10,7 @@ const testimonialsData = [
         role: "Ceo of Innvoy Global",
         quote: (
             <>
-                Tayyab’s UI/UX work goes beyond visuals, focusing on user behavior to significantly improve our product's usability and clarity.
+                Tayyab’s behavior driven designs significantly improve our product's usability and clarity.
             </>
         ),
         image: cimg1,
@@ -159,7 +159,7 @@ const Testimonials = () => {
                             variants={containerVariants}
                             initial="hidden"
                             animate={controls}
-                            className="text-[46px] md:text-[50px] font-bold tracking-[1px] [word-spacing:5px] text-white relative z-30 flex flex-col items-start md:block"
+                            className="text-[40px] md:text-[50px] font-bold tracking-[1px] [word-spacing:5px] text-white relative z-30 flex flex-col items-start md:block"
                         >
                             <span className="block md:inline whitespace-nowrap">
                                 {"Why Partners ".split("").map((char, index) => (
@@ -221,12 +221,12 @@ const Testimonials = () => {
                                     animate={isMobile ? { opacity: 1, y: 0, filter: 'blur(0px)' } : (index === 0 ? controls : undefined)}
                                     className={`${isMobile ? 'relative w-full' : 'absolute w-full max-w-[500px]'} shadow-2xl group ${item.className}`}
                                 >
-                                    <div className="h-[310px] w-full flex flex-col relative bg-[#1e293b]">
+                                    <div className="h-[360px] md:h-[310px] w-full flex flex-col relative bg-[#1e293b]">
 
                                         <div className="absolute top-0 left-0 right-0 h-[75%] z-0"
                                             style={{
                                                 background: item.gradient,
-                                                clipPath: 'polygon(0 0, 100% 0, 100% 60%, 0 85%)'
+                                                clipPath: 'polygon(0 0, 100% 0, 100% 70%, 0 85%)'
                                             }}
                                         />
 
@@ -235,10 +235,10 @@ const Testimonials = () => {
                                             <div>
                                                 <div className={`flex items-center gap-2 mb-6 ${item.logoColor}`}>
                                                     <Hexagon className="w-6 h-6 fill-current" />
-                                                    <span className="font-bold text-lg tracking-wide">logoipsum</span>
+                                                    <span className="font-semibold text-lg tracking-[1px]">Client Review</span>
                                                 </div>
 
-                                                <p className="text-xl md:text-1xl font-medium leading-normal">
+                                                <p className="text-lg md:text-1xl font-medium leading-normal tracking-[0.8px]">
                                                     {item.quote}
                                                 </p>
                                             </div>
@@ -252,8 +252,8 @@ const Testimonials = () => {
                                                     />
                                                 </div>
                                                 <div className="flex flex-col">
-                                                    <h4 className="font-bold text-lg leading-tight">{item.name}</h4>
-                                                    <p className="text-sm text-white/60 font-medium">{item.role}</p>
+                                                    <h4 className="font-semibold text-lg leading-tight tracking-[0.6px]">{item.name}</h4>
+                                                    <p className="text-sm text-white/60 tracking-[0.6px]">{item.role}</p>
                                                 </div>
                                             </div>
 
