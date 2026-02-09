@@ -144,9 +144,9 @@ const Testimonials = () => {
         <section
             ref={sectionRef}
             id="testimonials"
-            className="relative w-full z-20 mt-[-13vw] md:mt-[-8vw] [clip-path:polygon(0_12vw,100%_0,100%_96%,0%_100%)] md:[clip-path:polygon(0_13vw,100%_2%,100%_92%,0%_100%)]"
+            className="relative w-full z-20 mt-[-13vw] md:mt-[-8vw] [clip-path:polygon(0_12vw,100%_0,100%_96%,0%_100%)] md:[clip-path:polygon(0_13vw,100%_2%,100%_94%,0%_100%)]"
             style={{
-                height: isMobile ? 'auto' : '200vh',
+                height: isMobile ? 'auto' : '230vh',
                 paddingTop: '0',
                 background: 'radial-gradient(91% 104% at 6.7% 3.4%, #352842 0%, #0D0219 100%)'
             }}
@@ -154,7 +154,7 @@ const Testimonials = () => {
             <div className={`w-full flex flex-col items-center justify-center pt-[10vh] md:pt-[15vh] ${isMobile ? 'relative pb-24' : 'sticky top-0 h-screen overflow-hidden'}`}>
                 <div className="max-w-[1240px] w-full mx-auto px-6 md:px-12 relative z-10">
 
-                    <div ref={headingRef} className="relative mb-8 md:mb-16 inline-block">
+                    <div ref={headingRef} className="relative mb-8 md:mb-16 lg:mt-24 2xl:mt-0 inline-block">
                         <motion.h2
                             variants={containerVariants}
                             initial="hidden"
