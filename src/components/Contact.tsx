@@ -64,9 +64,10 @@ const Contact = () => {
                                 className="flex flex-col gap-6 items-start mt-[-16px] ml-6 transform -rotate-7 origin-left"
                             >
                                 <a
-                                    href="#"
+                                    href="mailto:tayyab16039@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="relative group inline-block p-[1.5px] overflow-hidden"
-                                    onClick={(e) => e.preventDefault()}
                                 >
                                     <div className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#00000000_50%,#A855F7_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                     <div className="relative flex items-center gap-2 px-6 py-2 z-10"
@@ -80,16 +81,16 @@ const Contact = () => {
                                 </a>
 
                                 <div className="flex items-center gap-6 mt-2">
-                                    <a href="https://www.linkedin.com/in/muhammad-tayyab-838a2939b?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="text-white hover:opacity-80 transition-opacity">
+                                    <a href="https://www.linkedin.com/in/muhammad-tayyab-838a2939b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
                                         <Linkedin size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://www.instagram.com/design.tayyab?igsh=MTQ0YW95MXFsMDV5" className="text-white hover:opacity-80 transition-opacity">
+                                    <a href="https://www.instagram.com/design.tayyab?igsh=MTQ0YW95MXFsMDV5" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
                                         <Instagram size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://wa.me/+923081603939" className="text-white hover:opacity-80 transition-opacity">
+                                    <a href="https://wa.me/+923081603939" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
                                         <WhatsAppIcon />
                                     </a>
-                                    <a href="https://www.behance.net/tayyabshabbir16" className="text-white text-2xl font-bold hover:opacity-80 transition-opacity">
+                                    <a href="https://www.behance.net/tayyabshabbir16" target="_blank" rel="noopener noreferrer" className="text-white text-2xl font-bold hover:opacity-80 transition-opacity">
                                         Bē
                                     </a>
                                 </div>
