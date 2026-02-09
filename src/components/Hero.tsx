@@ -170,7 +170,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -6, zIndex: 50 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[18%] md:top-[10%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform w-[clamp(180px,26.4vw,380px)] lg:w-[clamp(160px,20vw,280px)] 2xl:w-[clamp(180px,26.4vw,380px)] h-[clamp(115px,16.7vw,240px)] lg:h-[clamp(100px,12.6vw,180px)] 2xl:h-[clamp(115px,16.7vw,240px)]"
+                    className="absolute top-[18%] md:top-[8%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform w-[clamp(180px,26.4vw,380px)] lg:w-[clamp(160px,17vw,280px)] 2xl:w-[clamp(180px,26.4vw,380px)] h-[clamp(115px,16.7vw,240px)] lg:h-[clamp(100px,12.6vw,180px)] 2xl:h-[clamp(115px,16.7vw,240px)]"
                     style={{
                         left: '2.5%'
                     }}
