@@ -144,9 +144,9 @@ const Testimonials = () => {
         <section
             ref={sectionRef}
             id="testimonials"
-            className="relative w-full z-20 mt-[-13vw] md:mt-[-8vw] [clip-path:polygon(0_12vw,100%_0,100%_96%,0%_100%)] md:[clip-path:polygon(0_13vw,100%_2%,100%_94%,0%_100%)]"
+            className="relative w-full z-20 mt-[-13vw] md:mt-[-8vw] [clip-path:polygon(0_12vw,100%_0,100%_96%,0%_100%)] md:[clip-path:polygon(0_13vw,100%_2%,100%_98%,0%_100%)]"
             style={{
-                height: isMobile ? 'auto' : '230vh',
+                height: isMobile ? 'auto' : '260vh',
                 paddingTop: '0',
                 background: 'radial-gradient(91% 104% at 6.7% 3.4%, #352842 0%, #0D0219 100%)'
             }}
