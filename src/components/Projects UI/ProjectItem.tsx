@@ -62,7 +62,7 @@ const ProjectItem = ({ title, images, tags }: ProjectItemProps) => {
                                     }
                                 }
                             }}
-                            className="text-[3.2rem] md:text-[4.38rem] font-black text-[#1e1e1e] tracking-tight md:tracking-evenly [word-spacing:10px] md:[word-spacing:20px] transform -rotate-6 whitespace-nowrap opacity-90 text-center"
+                            className="text-[3rem] md:text-[4.38rem] font-black text-[#1e1e1e] tracking-tight md:tracking-evenly [word-spacing:10px] md:[word-spacing:20px] transform -rotate-6 whitespace-nowrap opacity-90 text-center"
                             style={{ textShadow: '0px 10px 40px rgba(0,0,0,0.1)' }}>
                             {title.split("").map((char, index) => (
                                 <motion.span
@@ -141,7 +141,7 @@ const ProjectItem = ({ title, images, tags }: ProjectItemProps) => {
                         <div className="flex flex-col items-end gap-1">
                             <div className="flex items-center gap-2 mb-1">
                                 {tags.map((tag, i) => (
-                                    <span key={i} className="text-[#2dd4bf] text-lg md:text-xl font-mono tracking-tight shadow-sm">
+                                    <span key={i} className="text-[#2dd4bf] text-lg md:text-xl font-mono tracking-tight">
                                         {tag} {i < tags.length - 1 && <span className="text-[#2dd4bf]/40">•</span>}
                                     </span>
                                 ))}
