@@ -35,7 +35,7 @@ const About = () => {
                 </motion.span>
             </div>
 
-            <div className="absolute bottom-0 left-0 w-full h-[51%]  z-10 [clip-path:polygon(0_41%,100%_0,100%_100%,0_100%)] pointer-events-none" style={{ background: 'radial-gradient(91% 104% at 6.7% 3.4%, #352446ff 0%, #0D0219 100%)' }} />
+            <div className="absolute bottom-0 left-0 w-full h-[51%] md:h-[51%] z-10 [clip-path:polygon(0_14%,100%_0,100%_100%,0_100%)] md:[clip-path:polygon(0_40%,100%_0,100%_100%,0_100%)] pointer-events-none" style={{ background: 'radial-gradient(91% 104% at 6.7% 3.4%, #352446ff 0%, #0D0219 100%)' }} />
 
             <AboutContent />
         </section >
