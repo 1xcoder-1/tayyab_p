@@ -154,7 +154,7 @@ const Testimonials = () => {
             <div className={`w-full flex flex-col items-center justify-center pt-[10vh] md:pt-[15vh] ${isMobile ? 'relative pb-24' : 'sticky top-0 h-screen overflow-hidden'}`}>
                 <div className="max-w-[1240px] w-full mx-auto px-6 md:px-12 relative z-10">
 
-                    <div ref={headingRef} className="relative mb-8 md:mb-16 lg:mt-24 2xl:mt-0 inline-block">
+                    <div ref={headingRef} className="relative mb-4 md:mb-6 lg:mt-24 2xl:mt-0 inline-block">
                         <motion.h2
                             variants={containerVariants}
                             initial="hidden"
@@ -187,7 +187,7 @@ const Testimonials = () => {
                         <div className="absolute top-[18%] md:top-[33%] left-[-1%] w-[60px] md:w-[80px] h-[6px] md:h-[7px] bg-[#A855F7] transform -rotate-8 z-40 mix-blend-normal" />
                     </div>
 
-                    <div className={`relative w-full flex ${isMobile ? 'flex-col gap-6' : 'h-[400px] items-center justify-center md:justify-start'} md:mt-8`}>
+                    <div className={`relative w-full flex ${isMobile ? 'flex-col gap-6' : 'h-[400px] items-center justify-center md:justify-start'}`}>
 
                         {testimonialsData.map((item, index) => {
 
