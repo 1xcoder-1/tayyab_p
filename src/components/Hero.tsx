@@ -170,10 +170,8 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -6, zIndex: 50 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[18%] md:top-[12%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform"
+                    className="absolute top-[18%] md:top-[12%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform w-[clamp(180px,26.4vw,380px)] lg:w-[clamp(160px,20vw,280px)] 2xl:w-[clamp(180px,26.4vw,380px)] h-[clamp(115px,16.7vw,240px)] lg:h-[clamp(100px,12.6vw,180px)] 2xl:h-[clamp(115px,16.7vw,240px)]"
                     style={{
-                        width: 'clamp(180px, 26.4vw, 380px)',
-                        height: 'clamp(115px, 16.7vw, 240px)',
                         left: '2.5%'
                     }}
                 >
@@ -193,11 +191,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -8, zIndex: 50 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[5%] md:top-[1%] left-[43.5%] shadow-[0_20px_50px_rgba(0,0,0,0.1)] overflow-hidden z-20 pointer-events-auto cursor-pointer"
-                    style={{
-                        width: 'clamp(150px, 29vw, 300px)',
-                        height: 'clamp(95px, 18vw, 200px)',
-                    }}
+                    className="absolute top-[5%] md:top-[1%] left-[43.5%] shadow-[0_20px_50px_rgba(0,0,0,0.1)] overflow-hidden z-20 pointer-events-auto cursor-pointer w-[clamp(150px,29vw,300px)] lg:w-[clamp(130px,22vw,220px)] 2xl:w-[clamp(150px,29vw,300px)] h-[clamp(95px,18vw,200px)] lg:h-[clamp(85px,14vw,150px)] 2xl:h-[clamp(95px,18vw,200px)]"
                 >
                     <img src={Img1} className="w-full h-full object-cover" alt="Project 2" />
                 </motion.div>
@@ -211,7 +205,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -5 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[-1%] right-[24%] w-[12%] md:w-[16%] max-w-[200px] shadow-[0_15px_30px_rgba(0,0,0,0.08)] overflow-hidden z-10 pointer-events-auto cursor-pointer"
+                    className="absolute top-[-1%] right-[30%] w-[12%] md:w-[16%] lg:w-[13%] 2xl:w-[16%] max-w-[200px] shadow-[0_15px_30px_rgba(0,0,0,0.08)] overflow-hidden z-10 pointer-events-auto cursor-pointer"
                 >
                     <img src={Img5} className="w-full h-auto" alt="Project 3" />
                 </motion.div>
@@ -225,11 +219,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -7 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[26%] md:top-[21%] right-[6%] shadow-[0_40px_80px_rgba(0,0,0,0.18)] overflow-hidden pointer-events-auto cursor-pointer"
-                    style={{
-                        width: 'clamp(150px, 22vw, 290px)',
-                        height: 'clamp(100px, 13vw, 185px)',
-                    }}
+                    className="absolute top-[26%] md:top-[16%] right-[2%] shadow-[0_40px_80px_rgba(0,0,0,0.18)] overflow-hidden pointer-events-auto cursor-pointer w-[clamp(150px,22vw,290px)] lg:w-[clamp(130px,18vw,220px)] 2xl:w-[clamp(150px,22vw,290px)] h-[clamp(100px,13vw,185px)] lg:h-[clamp(85px,10vw,140px)] 2xl:h-[clamp(100px,13vw,185px)]"
                 >
                     <img src={Img4} className="w-full h-full object-cover" alt="Project 4" />
                 </motion.div>
@@ -248,10 +238,8 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -7 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[75%] md:top-auto md:bottom-[3%] pointer-events-auto cursor-pointer z-[26] will-change-transform"
+                    className="absolute top-[75%] md:top-auto md:bottom-[3%] pointer-events-auto cursor-pointer z-[26] will-change-transform w-[clamp(100px,19vw,280px)] lg:w-[clamp(90px,15vw,210px)] 2xl:w-[clamp(100px,19vw,280px)] h-[clamp(100px,13.9vw,200px)] lg:h-[clamp(90px,11vw,150px)] 2xl:h-[clamp(100px,13.9vw,200px)]"
                     style={{
-                        width: 'clamp(100px, 19vw, 280px)',
-                        height: 'clamp(100px, 13.9vw, 200px)',
                         left: '-2.2%',
                         filter: 'drop-shadow(rgba(4, 18, 36, 0.2) 0px 23px 22px)'
                     }}
@@ -272,10 +260,8 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -7, zIndex: 60 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[68%] md:top-auto md:bottom-[10%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform"
+                    className="absolute top-[68%] md:top-auto md:bottom-[10%] overflow-hidden pointer-events-auto cursor-pointer shadow-3xl z-[27] will-change-transform w-[clamp(150px,21.2vw,305px)] lg:w-[clamp(130px,17vw,230px)] 2xl:w-[clamp(150px,21.2vw,305px)] h-[clamp(100px,14.6vw,210px)] lg:h-[clamp(85px,11.7vw,160px)] 2xl:h-[clamp(100px,14.6vw,210px)]"
                     style={{
-                        width: 'clamp(150px, 21.2vw, 305px)',
-                        height: 'clamp(100px, 14.6vw, 210px)',
                         left: '8%'
                     }}
                 >
@@ -295,11 +281,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -8 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[83%] md:top-auto md:bottom-[0%] right-[6%] shadow-[0_20px_50px_rgba(0,0,0,0.1)] overflow-hidden z-20 pointer-events-auto cursor-pointer"
-                    style={{
-                        width: 'clamp(180px, 34vw, 430px)',
-                        height: 'clamp(140px, 18.8vw, 270px)',
-                    }}
+                    className="absolute top-[83%] md:top-auto md:bottom-[3%] right-[6%] shadow-[0_20px_50px_rgba(0,0,0,0.1)] overflow-hidden z-20 pointer-events-auto cursor-pointer w-[clamp(180px,34vw,430px)] lg:w-[clamp(170px,25vw,320px)] 2xl:w-[clamp(180px,34vw,430px)] h-[clamp(140px,18.8vw,270px)] lg:h-[clamp(120px,14vw,200px)] 2xl:h-[clamp(140px,18.8vw,270px)]"
                 >
                     <img src={Img7} className="w-full h-full object-cover" alt="Bottom Project 1" />
                 </motion.div>
@@ -313,11 +295,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -5 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[79%] md:top-auto md:bottom-[17%] right-[2%] shadow-[0_15px_30px_rgba(0,0,0,0.08)] overflow-hidden z-10 pointer-events-auto cursor-pointer"
-                    style={{
-                        width: 'clamp(100px, 16.6vw, 300px)',
-                        height: 'clamp(90px, 10.4vw, 150px)',
-                    }}
+                    className="absolute top-[79%] md:top-auto md:bottom-[17%] right-[2%] shadow-[0_15px_30px_rgba(0,0,0,0.08)] overflow-hidden z-10 pointer-events-auto cursor-pointer w-[clamp(100px,16.6vw,300px)] lg:w-[clamp(90px,13vw,220px)] 2xl:w-[clamp(100px,16.6vw,300px)] h-[clamp(90px,10.4vw,150px)] lg:h-[clamp(80px,8vw,110px)] 2xl:h-[clamp(90px,10.4vw,150px)]"
                 >
                     <img src={Img6} className="w-full h-full object-cover" alt="Bottom Project 2" />
                 </motion.div>
