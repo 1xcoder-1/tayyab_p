@@ -92,7 +92,7 @@ const Projects = () => {
                                 ))}
                             </motion.h2>
                             <motion.div
-                                className="absolute top-[15%] left-[-1%] w-[30%] h-[7px] md:h-[7px] bg-[#9333ea] transform -rotate-10 z-20 mix-blend-multiply opacity-90 pointer-events-none"
+                                className="absolute top-[17%] left-[-1%] w-[30%] h-[7px] md:h-[8px] bg-[#9333ea] transform -rotate-10 z-20 opacity-90 pointer-events-none"
                                 initial={{ width: 0, opacity: 0 }}
                                 whileInView={{ width: "30%", opacity: 0.9 }}
                                 transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
