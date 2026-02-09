@@ -38,33 +38,33 @@ const allProjectsData = [
         ],
     },
 
-    {
-        title: "Camhome",
-        tags: ["Framer", "Template"],
-        images: [
-            "https://framerusercontent.com/images/6BzTpMXghcswxSpaZzRtLNmnRg.png?scale-down-to=512&width=2880&height=1900",
-            "https://framerusercontent.com/images/JAg7KfuVKcig6IypiiOoaTXI6aE.jpg?scale-down-to=512&width=2880&height=1900",
-            "https://framerusercontent.com/images/2TgzUSBwFMLj5FfgFrpbiESOOMM.jpg?scale-down-to=512&width=2880&height=1900"
-        ],
-    },
-    {
-        title: "COMMAND TMS",
-        tags: ["DesignSystem", "Saas"],
-        images: [
-            "https://framerusercontent.com/images/Jtnq93J0CMfJ4WbWSHVfwXX9NU.jpg?scale-down-to=512&width=5760&height=3240",
-            "https://framerusercontent.com/images/VbkkKj0YIsuFUcFgrQjP3c024HY.jpg?scale-down-to=512&width=5760&height=3240",
-            "https://framerusercontent.com/images/jlyFVF4QgOtL8hl0kXvi0YHf1D0.jpg?scale-down-to=512&width=5760&height=3240"
-        ],
-    },
-    {
-        title: "My Playground",
-        tags: ["Paratice", "Animation"],
-        images: [
-            "https://framerusercontent.com/images/r0RRWl16HsbxtaRhjF1jcLcw6wI.gif?scale-down-to=512&width=1920&height=1080",
-            "https://framerusercontent.com/images/AvF5wJteV9mQMdiMQBJCjh3w.gif?scale-down-to=512&width=1920&height=1080",
-            "https://framerusercontent.com/images/5xaR2xafuxXUYdytSBirkj8AE.png?scale-down-to=512&width=3840&height=2160"
-        ],
-    },
+    // {
+    //     title: "Camhome",
+    //     tags: ["Framer", "Template"],
+    //     images: [
+    //         "https://framerusercontent.com/images/6BzTpMXghcswxSpaZzRtLNmnRg.png?scale-down-to=512&width=2880&height=1900",
+    //         "https://framerusercontent.com/images/JAg7KfuVKcig6IypiiOoaTXI6aE.jpg?scale-down-to=512&width=2880&height=1900",
+    //         "https://framerusercontent.com/images/2TgzUSBwFMLj5FfgFrpbiESOOMM.jpg?scale-down-to=512&width=2880&height=1900"
+    //     ],
+    // },
+    // {
+    //     title: "COMMAND TMS",
+    //     tags: ["DesignSystem", "Saas"],
+    //     images: [
+    //         "https://framerusercontent.com/images/Jtnq93J0CMfJ4WbWSHVfwXX9NU.jpg?scale-down-to=512&width=5760&height=3240",
+    //         "https://framerusercontent.com/images/VbkkKj0YIsuFUcFgrQjP3c024HY.jpg?scale-down-to=512&width=5760&height=3240",
+    //         "https://framerusercontent.com/images/jlyFVF4QgOtL8hl0kXvi0YHf1D0.jpg?scale-down-to=512&width=5760&height=3240"
+    //     ],
+    // },
+    // {
+    //     title: "My Playground",
+    //     tags: ["Paratice", "Animation"],
+    //     images: [
+    //         "https://framerusercontent.com/images/r0RRWl16HsbxtaRhjF1jcLcw6wI.gif?scale-down-to=512&width=1920&height=1080",
+    //         "https://framerusercontent.com/images/AvF5wJteV9mQMdiMQBJCjh3w.gif?scale-down-to=512&width=1920&height=1080",
+    //         "https://framerusercontent.com/images/5xaR2xafuxXUYdytSBirkj8AE.png?scale-down-to=512&width=3840&height=2160"
+    //     ],
+    // },
 ];
 
 const containerVariants: Variants = {
