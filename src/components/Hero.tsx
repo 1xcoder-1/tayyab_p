@@ -219,7 +219,7 @@ const Hero = ({ startAnimation }: HeroProps) => {
                     animate={controls}
                     whileHover={{ scale: 1.12, rotate: -7 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
-                    className="absolute top-[26%] md:top-[16%] right-[2%] shadow-[0_40px_80px_rgba(0,0,0,0.18)] overflow-hidden pointer-events-auto cursor-pointer w-[clamp(150px,22vw,290px)] lg:w-[clamp(130px,18vw,220px)] 2xl:w-[clamp(150px,22vw,290px)] h-[clamp(100px,13vw,185px)] lg:h-[clamp(85px,10vw,140px)] 2xl:h-[clamp(100px,13vw,185px)]"
+                    className="absolute top-[26%] md:top-[13%] right-[2%] shadow-[0_40px_80px_rgba(0,0,0,0.18)] overflow-hidden pointer-events-auto cursor-pointer w-[clamp(150px,22vw,290px)] lg:w-[clamp(130px,18vw,220px)] 2xl:w-[clamp(150px,22vw,290px)] h-[clamp(100px,13vw,185px)] lg:h-[clamp(85px,10vw,140px)] 2xl:h-[clamp(100px,13vw,185px)]"
                 >
                     <img src={Img4} className="w-full h-full object-cover" alt="Project 4" />
                 </motion.div>
