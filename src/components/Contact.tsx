@@ -80,17 +80,17 @@ const Contact = () => {
                                     </div>
                                 </a>
 
-                                <div className="flex items-center gap-6 mt-2">
-                                    <a href="https://www.linkedin.com/in/muhammad-tayyab-838a2939b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
+                                <div className="flex items-center gap-6 mt-2 relative md:z-[60]">
+                                    <a href="https://www.linkedin.com/in/muhammad-tayyab-838a2939b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-white md:text-black hover:opacity-80 transition-opacity">
                                         <Linkedin size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://www.instagram.com/design.tayyab?igsh=MTQ0YW95MXFsMDV5" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
+                                    <a href="https://www.instagram.com/design.tayyab?igsh=MTQ0YW95MXFsMDV5" target="_blank" rel="noopener noreferrer" className="text-white md:text-black hover:opacity-80 transition-opacity">
                                         <Instagram size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://wa.me/+923081603939" target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity">
+                                    <a href="https://wa.me/+923081603939" target="_blank" rel="noopener noreferrer" className="text-white md:text-black hover:opacity-80 transition-opacity">
                                         <WhatsAppIcon />
                                     </a>
-                                    <a href="https://www.behance.net/tayyabshabbir16" target="_blank" rel="noopener noreferrer" className="text-white text-2xl font-bold hover:opacity-80 transition-opacity">
+                                    <a href="https://www.behance.net/tayyabshabbir16" target="_blank" rel="noopener noreferrer" className="text-white md:text-black text-2xl font-bold hover:opacity-80 transition-opacity">
                                         Bē
                                     </a>
                                 </div>
