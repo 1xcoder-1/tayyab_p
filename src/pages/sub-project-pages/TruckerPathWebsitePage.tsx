@@ -362,10 +362,10 @@ const TruckerPathWebsitePage = () => {
                   <h3 className="text-2xl font-[500] text-white">Quran Reader App</h3>
                   <div className="flex gap-2">
                     <span className="px-4 py-1.5 rounded-full bg-[#1A1D21] text-[#888888] text-sm font-medium border border-white/5 transition-all duration-300 group-hover:bg-[#25282C] group-hover:text-gray-200 group-hover:border-white/20 group-hover:shadow-[0_0_15px_-3px_rgba(255,255,255,0.15)]">
-                      iOS App
+                      macOS App
                     </span>
                     <span className="px-4 py-1.5 rounded-full bg-[#1A1D21] text-[#888888] text-sm font-medium border border-white/5 transition-all duration-300 group-hover:bg-[#25282C] group-hover:text-gray-200 group-hover:border-white/20 group-hover:shadow-[0_0_15px_-3px_rgba(255,255,255,0.15)]">
-                      Mobile App
+                      iOS App
                     </span>
                   </div>
                 </div>
