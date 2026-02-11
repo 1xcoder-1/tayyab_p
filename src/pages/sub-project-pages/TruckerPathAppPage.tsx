@@ -11,7 +11,7 @@ import { wimg1, wimg2 } from '../../Images/Water Tracker/index';
 const TruckerPathAppPage = () => {
   const projectDetails = {
     title: "Quran Reader App",
-    tags: ["IOS App", "Mobile App"],
+    tags: ["macOS App", "IOS App"],
     description: "Focus on improving the CTR of various scenario entrances and the final conversion rate of Fuel Purchase reservations.",
     image: qimg3,
     role: "Product Design, Strategy, Branding, No-Code Development",
